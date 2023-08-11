@@ -1,0 +1,26 @@
+.filler {
+  height: 1000px;
+  max-width: 800px;
+  width: 100%;
+  background: #000;
+  margin: 100px;
+}
+
+button {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+
+  background-color: orange;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50px;
+
+  transition: opacity 0.7s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  display: none;
+}
